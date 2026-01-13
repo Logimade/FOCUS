@@ -34,10 +34,11 @@ The pipeline is structured as:
 
 ```mermaid
 flowchart TD
-    A[Input (RGB / RGB-D)] --> B[Foot Keypoint Detection]
-    B --> C[Temporal Feature Extraction]
-    C --> D[Gesture Recognition Network]
-    D --> E[Gesture Label / Event] 
+    A["Input (RGB or RGB-D)"] --> B["Foot Keypoint Detection"]
+    B --> C["Temporal Feature Extraction"]
+    C --> D["Gesture Recognition Network"]
+    D --> E["Gesture Label / Event"]
+    
 ```md
 
 ## 📷 Sensors
