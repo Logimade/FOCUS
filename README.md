@@ -26,8 +26,6 @@ This repository explores **gesture-level understanding**, not just pose estimati
 
 ---
 
-## 🧠 Core Idea
-
 The pipeline is structured as:
 
 ## 🔄 Processing Pipeline
@@ -39,7 +37,7 @@ flowchart TD
     C --> D["Gesture Recognition Network"]
     D --> E["Gesture Label / Event"]
     
-```md
+```
 
 ## 📷 Sensors
 
