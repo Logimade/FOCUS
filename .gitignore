@@ -1,0 +1,24 @@
+##################################
+# Jupyter / IPython
+##################################
+.ipynb_checkpoints/
+.profile_default/
+.ipython/
+
+##################################
+# Python
+##################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+##################################
+# Virtual environments
+##################################
+venv/
