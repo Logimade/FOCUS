@@ -22,3 +22,10 @@ build/
 # Virtual environments
 ##################################
 venv/
+*.mp4
+*.pt
+*.task
+*.mov
+*.avi
+*.mkv
+*.ipynb
