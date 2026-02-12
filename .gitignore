@@ -29,3 +29,6 @@ venv/
 *.avi
 *.mkv
 *.ipynb
+*.mp4
+*.pt
+*.task
