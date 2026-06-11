@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['foot']
+
+roboflow:
+  workspace: yolo-nmttw
+  project: feet-emasf
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-nmttw/feet-emasf/dataset/1
