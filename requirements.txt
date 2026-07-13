@@ -1,0 +1,28 @@
+# --- core: detector, smoother, recognizer, live demo ---
+numpy
+opencv-python
+ultralytics
+
+# --- evaluation (evaluate.py) ---
+scikit-learn
+
+# --- filter figure (filter_analysis.py) ---
+matplotlib
+
+# --- detector comparison grid (detector_comparison.py) ---
+Pillow
+
+# --- optional: detectors compared against ours ---
+# MediaPipe Pose (Tasks API; also needs a pose_landmarker.task model file,
+# and GL libraries on headless Linux)
+mediapipe>=0.10.14
+# RTMPose WholeBody (lightweight, ONNX-based)
+rtmlib
+onnxruntime            # or: onnxruntime-gpu  (must match your CUDA driver)
+
+# --- optional: regenerate the system-overview diagram from SVG ---
+cairosvg
+
+# NOTE: synthetic data generation (generate_gestures.py) requires Blender 5.x,
+# which is NOT a pip package. Run it via:
+#   blender --background --python generate_gestures.py -- ...

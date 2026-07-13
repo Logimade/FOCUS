@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+
+# --- Evaluation cache ---
+kpcache*/
+_tmpcache/
+
+# --- YOLO training runs & weights (large; use Git LFS or Releases) ---
+runs/
+*.pt
+
+# --- Recorded / rendered video & synthetic data ---
+*.mp4
+*.avi
+*.mov
+synth*/
+
+# --- Large external assets (Blender generation) ---
+hdris/
+floor_*/
+*.fbx
+
+# --- Externally downloaded models ---
+pose_landmarker.task
+
+# --- Generated figures / artifacts (recreated by scripts) ---
+filter_comparison.*
+detector_comparison_grid.*
+mediapipe_check.png
+_preview_*.png
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
