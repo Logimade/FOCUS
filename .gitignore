@@ -16,7 +16,6 @@ _tmpcache/
 
 # --- YOLO training runs & weights (large; use Git LFS or Releases) ---
 runs/
-*.pt
 
 # --- Recorded / rendered video & synthetic data ---
 *.mp4
