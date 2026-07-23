@@ -332,6 +332,8 @@ The ‘FOCUS: FOot-based Control for User Support’ action has received funding
 Union, via oc1-2025-TIS-01 issued and implemented by the ENFIELD project, under the grant
 agreement No 101120657
 
+![Partner](docs/enfield.png)
+
 ## Citation
 
 If you use this work, please cite the accompanying paper (details to be added on
