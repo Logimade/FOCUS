@@ -326,6 +326,12 @@ The full pipeline runs comfortably in real time on GPU (see `benchmark.py`).
 
 ---
 
+## Disclaimer
+
+The ‘FOCUS: FOot-based Control for User Support’ action has received funding from the European
+Union, via oc1-2025-TIS-01 issued and implemented by the ENFIELD project, under the grant
+agreement No 101120657
+
 ## Citation
 
 If you use this work, please cite the accompanying paper (details to be added on
